@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator Lite</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Meme Generator Lite</h1>
+        <div class="meme-container" id="meme-container">
+            <img src="meme-template.jpg" alt="Meme Template" id="meme-image">
+            <div class="meme-text" id="top-text"></div>
+            <div class="meme-text" id="bottom-text"></div>
+        </div>
+        <div class="inputs">
+            <input type="text" id="top-text-input" placeholder="Top Text">
+            <input type="text" id="bottom-text-input" placeholder="Bottom Text">
+        </div>
+        <button id="generate-meme">Generate Meme</button>
+        <button id="download-meme">Download Meme</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
